@@ -1,0 +1,41 @@
+baseurl = "http://35mm.love/"
+languageCode = "en-US"
+title = "35mm Love"
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "camera.png"
+  author = "Łukasz Sarnacki"
+  description = "Street Photography with love"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "lukesarnacki"
+  Email         = "hello@35mm.love"
+  Twitter       = "LukaszSarnacki"
+  Flickr        = "sarniak"
+  #LinkedIn      = "username"
+  #Stackoverflow = "username"
+
+## Main Menu
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"

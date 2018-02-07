@@ -1,0 +1,19 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>I'm <strong>{{ .Site.Params.author }}</strong>, and I love Street Photography.</h3>
+        <h3>You can find my photos on <a href="http://flickr.com/{{ .Site.Params.Social.Flickr }}"> Flickr</a>.</h3>
+        <h3><a href="mailto:{{ .Site.Params.Social.Email }}">hello@35mm.love</a></h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
