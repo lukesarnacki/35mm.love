@@ -23,10 +23,12 @@ html, body {
   margin-bottom: 10px;
 }
 .navbar-default {
+  display: none;
   background-color: #ffffff;
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
+  display: none;
   color: #6b6b6b;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -153,7 +155,7 @@ html, body {
   color: #000;
 }
 .avatar {
-  padding-top: 5%;
+  padding-top: 10%;
 }
 .blog-post{
   padding-top: 15px;
