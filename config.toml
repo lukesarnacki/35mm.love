@@ -2,6 +2,7 @@ baseurl = "http://35mm.love/"
 languageCode = "en-US"
 title = "35mm Love"
 theme = "hugo-sustain"
+publishDir = "docs"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
