@@ -134,6 +134,7 @@ html, body {
   width: 100%;
   text-align: center;
   animation: fade 1s ease 1s both;
+  padding: 0;
 }
 .social-links li {
   display: inline-block;
